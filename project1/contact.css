@@ -1,0 +1,242 @@
+*{
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+
+}
+body{
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    background-color: rgb(241 241 241);
+}
+
+/* header styling */
+
+header{
+    background-color: #6a7b8b;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    /* height: fit-content; */
+       background-color: #6a7b8b;
+}
+.logo{
+     margin: 20px;
+}
+.nav {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    /* border: 2px solid red; */
+
+}
+
+.topnav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+   /* justify-self: center;  */
+   margin-left: 0%;
+   margin-top: 40px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+
+/* footer styling */
+
+
+footer{
+    background-color: #6a7b8b;
+    margin-top: 20px;
+}
+
+
+.container_footer {
+    display: flex;
+     gap: 35%; /* pushes the gap between in flex items */
+}   
+
+.logo img {
+    padding: 5px;
+}
+
+ul li {
+    list-style: none;
+   
+}
+
+.content p{
+    margin:20px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    /* body {
+      background-color: blue;
+    } */
+  .topnav {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+
+ 
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    /* body {
+      background-color: olive;
+    } */
+  .topnav{
+      margin-top: 0;
+  }
+ header{
+     width: 200%;
+ }
+          
+    
+.container_footer {
+    display: flex;  
+     gap: 5%; /* pushes the gap between in flex items */
+}   
+
+footer {
+    
+    width: 200%;
+}
+
+
+.contact_us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self:center;
+}
+
+
+}
+
+  /* On screens that are 370px or less, set the background color to olive */
+  @media screen and (max-width: 370px) {
+    html, body {
+        min-height: 100%;
+        max-width: 90%;
+   }
+    body {
+      /* background-color: red; */
+      display: block;
+
+     
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        /* margin-bottom: -174px; */
+         max-width: 200%;
+         background-color: #6a7b8b;
+
+        }
+  
+        .container1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* height: 120px; */
+            /* max-height: 100%; */
+            width: 250%;
+           
+        }
+     .nav {
+         width: 100%;
+
+     }
+        .topnav  li {
+  margin-bottom: 10px;
+        }
+         
+    
+p {
+    font-size: 15px;
+ }
+
+ footer {
+    
+     width: 500%;
+ }
+
+    .content p {
+        font-size: 14px;
+        justify-content: center;
+    }
+
+
+
+
+.logo_aboutus{
+    margin-top: 200px;
+}
+
+  }
+
+        /* ----Contact Us styling------ */
+
+   
+
+      .contact_us {
+
+         /* display: flex;
+         flex-direction: column;
+         justify-items: center; */
+
+         margin-left: auto;
+         margin-right: auto;
+         width: fit-content;
+
+        }
+
+        .contact_us img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+
+        }
+
+        .address h1 {
+            text-align: center;
+        }
+
+        address p {
+            font-style:normal;
+            line-height: 2rem;
+            padding: 10px;
+        }
+
+        .address {
+            margin-bottom: 20px;
+        }
+
+        

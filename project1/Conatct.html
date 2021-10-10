@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <!-- <link rel="stylesheet" href="/project1/footer1.css">
+    <link rel="stylesheet" href="/project1/navbar.css"> -->
+    <link rel="stylesheet" href="/project1/contact.css">
+    <link rel="stylesheet" href="/project1/form.css">
+
+    <title>Contact</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="container1">
+            <img class="logo" src=" /Assets/full_logo_white.png" width="150px" height="70px" alt="Mr Coffee Logo">
+            <nav class="nav">
+                <ul class="topnav">
+                    <li><a class="active" href="/project1/index.html">Accueil</a></li>
+                    <li><a href="/project1/AboutUs.html">Qui sommes-nous?</a></li>
+                    <li><a href="/project1/Conatct.html">Nous contacter</a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+
+
+    </header>
+    <main>
+
+        <section class="contact_us">
+            <img class="logo" src=" /Assets/full_logo_dark.png" width="150px" height="70px" alt="Mr Coffee Logo">
+
+            <h1>Dites nous tout !</h1>
+
+            <form id="form">
+
+                <div class="form-control">
+                    <label for="name">Nom *</label>
+                    <input type="text" id="name" name="name">
+                    <small>Error</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="firstName">Prénom* </label>
+                    <input type="text" id="firstName" name="firstName">
+                    <small>Error</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="phNumber">Téléphone</label>
+                    <input type="number" id="phNumber" name="phNumber">
+                    <small>Error</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">Adresse mail* </label>
+                    <input type="text" id="email" name="email">
+                    <small>Error</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="message">Message* </label>
+                    <input type="textarea" id="message" name="message" placeholder="Tapez votre message ici" required>
+                    <small>Error</small>
+                </div>
+
+                <button onclick=type="submit">ENVOYER</button>
+            </form>
+
+            <div class="address">
+                <h1>On vous attend !</h1>
+                <address>
+
+                    <p><strong>Mr.Coffee</strong><br>
+                        <br>
+                        place Jules Guesde<br>
+                        75006 Paris<br><br>
+                        Tel : +33 9 46 25 78 45<br>
+                        Mail : contact@mr-coffee.com
+                    </p>
+                </address>
+
+            </div>
+            <img class="map" src="/Assets/carte_contact.png" alt="Google map showing the location of Mr-coffee">
+        </section>
+
+    </main>
+    <footer>
+
+        <div class="container_footer">
+            <div class="logo"><img src="../Assets/logo_blanc.png" alt="logo_blanc" width="60px">
+            </div>
+            <div class="content">
+                <p>Suivez nous sur les réseaux sociaux !</p>
+                <ul class="ui_footer">
+
+                    <li class="li_footer"><img src="../Assets/logo_linkedin.png" alt="logo_linkedin" width="40px"
+                            height="40px"> </li>
+                    <li class="li_footer"><img src="../Assets/logo_twitter.png" alt="logo_twitter" width="40px"
+                            height="40px"> </li>
+                    <li class="li_footer"><img src="../Assets/logo_facebook.png" alt="logo_facebook" width="40px"
+                            height="40px"> </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="/project1/form.js"></script>
+</body>
+
+</html>
