@@ -16,6 +16,25 @@
 </head>
 
 <body>
+    <div class="modal-overlay"></div>
+    <!-- dialog here for form -->
+    <dialog class="modal-content">
+
+
+        <img src="/Assets/logo_dark.png" width="auto" height="100px">
+
+        <div class="modal-message">
+            <h1> MERCI </h1>
+            <h2>Votre message a bien été envoyé !</h2>
+            <p>Nous essaierons d’y répondre au mieux dans les plus brefs délais. À bientot chez Mr.CoffeeVotre
+                message a
+                bien été envoyé !</p>
+
+            <button id="close-modal">FERMER</button>
+
+
+        </div>
+    </dialog>
     <header>
         <div class="container1">
             <img class="logo" src=" /Assets/full_logo_white.png" width="150px" height="70px" alt="Mr Coffee Logo">
@@ -71,7 +90,7 @@
                     <small>Error</small>
                 </div>
 
-                <button onclick=type="submit">ENVOYER</button>
+                <button id="form-button" type="submit">ENVOYER</button>
             </form>
 
             <div class="address">
